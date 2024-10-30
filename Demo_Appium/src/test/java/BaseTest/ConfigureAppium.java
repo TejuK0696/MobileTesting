@@ -34,7 +34,7 @@ public void AppiumConfig() throws MalformedURLException, URISyntaxException {
 		//To set the device 
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("DemoPixel9");
-		options.setApp("//Users//apple//Eclipse_Appium//Demo_Appium//src//test//java//resource//ApiDemos-debug.apk");
+		options.setApp("//Users/apple/git/MobileTesting/Demo_Appium/src/test/java/resource/ApiDemos-debug.apk");
 		
 		//To set Driver
 		 driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
